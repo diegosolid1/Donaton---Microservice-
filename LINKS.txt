@@ -1,0 +1,53 @@
+EUREKA
+
+http://localhost:8761
+
+API GATEWAY
+
+Usuarios:              http://localhost:8080/api/v1/usuario 
+Roles:                 http://localhost:8080/api/v1/rol 
+Donaciones:            http://localhost:8080/api/v1/donaciones 
+Items Donados:         http://localhost:8080/api/v1/itemsDonados 
+Emergencias:           http://localhost:8080/api/v1/emergencia 
+Zonas Afectadas:       http://localhost:8080/api/v1/zona 
+Inventario Stock:      http://localhost:8080/api/v1/inventarioStock 
+Movimiento Inventario: http://localhost:8080/api/v1/movimiento-inventario 
+Despachos:             http://localhost:8080/api/v1/despacho  
+Items Despachados:     http://localhost:8080/api/v1/item-despachado 
+Necesidades:           http://localhost:8080/api/v1/necesidad 
+Detalle Necesidad:     http://localhost:8080/api/v1/detalle 
+Notificaciones:        http://localhost:8080/api/v1/notificacion 
+Historial Envío:       http://localhost:8080/api/v1/historial-envio 
+Donantes Destacados:   http://localhost:8080/api/v1/donante-destacado 
+Métricas Campaña:      http://localhost:8080/api/v1/metrica-campana 
+Voluntarios:           http://localhost:8080/api/v1/voluntario 
+Asignación Turnos:     http://localhost:8080/api/v1/asignacion-turno 
+Centros de Acopio:     http://localhost:8080/api/v1/centroacopio 
+Horarios de Acopio:    http://localhost:8080/api/v1/horarioAcopio 
+
+
+SWAGGER
+
+http://localhost:8081/swagger-ui/index.html  autenticación
+http://localhost:8091/swagger-ui/index.html  centro acopio
+http://localhost:8083/swagger-ui/index.html  donaciones 
+http://localhost:8084/swagger-ui/index.html  emergencias
+http://localhost:8085/swagger-ui/index.html  inventario
+http://localhost:8086/swagger-ui/index.html  logística
+http://localhost:8087/swagger-ui/index.html  necesidades
+http://localhost:8088/swagger-ui/index.html  notificaciones
+http://localhost:8089/swagger-ui/index.html reportes
+http://localhost:8090/swagger-ui/index.html  voluntariado
+
+
+DTOS:
+http://localhost:8083/api/v1/donaciones/usuario 
+http://localhost:8086/api/v1/despacho/centroacopio 
+http://localhost:8086/api/v1/despacho/zona 
+http://localhost:8083/api/v1/donaciones/emergencia 
+http://localhost:8090/api/v1/voluntario/usuario 
+http://localhost:8088/api/v1/notificacion/usuario 
+
+
+https://trello.com/b/WamgqZQm/donaton-microservice
+
